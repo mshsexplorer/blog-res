@@ -1,0 +1,238 @@
+/**********************************************/
+/* Font 
+@font-face {
+	font-family: RobotoThin;
+	src: url('font/roboto-thin.ttf');
+}
+.thin-font {
+	font-family: "RobotoThin", "RobotoLight", "Helvetica Neue", "Roboto", "Helvetica", "Century Gothic";
+}
+
+@font-face {
+	font-family: RobotoCond;
+	src: url('font/roboto-condensed.ttf');
+}
+.cond-font {
+	font-family: "RobotoCond", "Roboto", "Helvetica Neue", "Helvetica", "Century Gothic";
+}
+*/
+
+@font-face {
+	font-family: RobotoLight;
+	src: url('font/roboto-light.ttf');
+}
+.light-font {
+	font-family: "RobotoLight", "Roboto", "Helvetica Neue", "Helvetica", "Century Gothic";
+}
+/**********************************************/
+/* Body */
+body {
+	background-color: #222;
+	margin: 0px;
+	min-width: 800px;
+}
+
+.bg {
+	background: url(image/bg.jpg) no-repeat;
+	background-size: 100% 100%;
+	position: fixed;
+	width: 100%;
+	min-width: 800px;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    will-change: transform;
+}
+
+/**********************************************/
+/* Top Bar */
+.topbar_holder {
+	margin-left: 5%;
+	margin-right: 5%;
+	width:90%;
+	background-color: #111;
+	top:0;
+	height: auto;
+	padding: 0;
+	padding-bottom: 2px;
+	z-index:10;
+	position:relative;
+	opacity: 1;
+}
+.topbar_holder ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+}
+
+.topbar_holder li {
+	padding: 0;
+	padding-top:2px;
+	padding-bottom:2px;
+	display: inline-block;
+}
+
+.topbar_holder li:hover {
+	background-color: #777;
+}
+
+.topbar_holder a {
+	vertical-align: center;
+	padding: 0 20px;
+	line-height: 30px;
+	color: #ddd;
+}
+.topbar_holder form {
+	float: right; 
+	line-height: 20px;
+	padding:0;
+	margin: 0;
+	width:190px;
+}
+.topbar_holder::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.topbar_announcement {
+	vertical-align: center;
+	padding: 0 0;
+	margin:0;
+	line-height: 20px;
+	color: #ddd;
+	margin-left:190px;
+	position:static;
+	width:100%;
+	font-style: italic;
+	font-family: "RobotoLight", "Roboto", "Helvetica Neue", "Helvetica", "Century Gothic";
+	text-align:center;
+}
+
+/**********************************************/
+/* Header */
+.header_img_txt { /* Overall Header */
+	z-index:6;
+	color: #fff;
+	opacity:0.9;
+	text-align: center;
+	font-size: 50px;
+	position: relative;
+	margin-top: 7%;
+	margin-bottom: 20px;
+	text-shadow: 2px 2px 6px #000;
+}
+.header_img_subtxt {
+	z-index:6;
+	color: #fff;
+	opacity:0.9;
+	text-align: center;
+	font-size: 25px;
+	position: relative;
+	margin-top: 0;
+	margin-bottom: 7%;
+	text-shadow: 2px 2px 6px #000;
+}
+header a, .topbar_holder a, h3 a{ text-decoration: none; }
+
+/*********************************************
+Body Card 
+fix: http://stackoverflow.com/questions/10969023/how-to-fit-a-divs-height-to-wrap-around-its-floated-children
+*/
+.card {
+	background: #fff;
+	opacity: 0.8;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-bottom: 7%;
+	z-index:9;
+	position:relative;
+	height:auto;
+	padding:20px 0;
+	min-width: 500px;
+}
+.card::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.card_widget {
+	float:left;
+	width:24%;
+	padding: 0px 10px;
+	padding-right:0;
+	position:static;
+	margin-right:-20px;
+}
+
+.card_blog {
+	float:right;
+	width:75%;
+	min-width:200px;
+	margin-left:-20px;
+	position:static;
+}
+/**********************************************/
+/* Text */
+a {
+	color: #226;
+	font-family: "Roboto", "Helvetica Neue", "Helvetica", "Century Gothic";
+}
+
+h1 {
+	color: #222;
+	font-family: "RobotoLight", "Roboto", "Helvetica Neue", "Helvetica", "Century Gothic";
+	font-size: 40px;
+	text-align: center;
+}
+h2 {
+	color: #222;
+	font-family: "RobotoLight", "Roboto", "Helvetica Neue", "Helvetica", "Century Gothic";
+	font-size: 28px;
+}
+
+h3 {
+	color: #222;
+	font-family: "RobotoLight", "Roboto", "Helvetica Neue", "Helvetica", "Century Gothic";
+	font-size:22px;
+	text-align:center;
+}
+
+p {
+	color: #222;
+	font-family: "Roboto", "Helvetica Neue", "Helvetica", "Century Gothic";
+}
+
+.g-profile, .post-title a {
+	text-decoration: none;
+	font-family: "RobotoLight", "Roboto", "Helvetica Neue", "Helvetica", "Century Gothic" !important;
+}
+
+.post-footer, .date-header {
+	text-align: center;
+}
+
+img {
+	margin:8px;
+}
+
+/**********************************************/
+/* blogger widgets */
+
+#main{
+	font-family: "RobotoLight", "Roboto", "Helvetica Neue", "Helvetica", "Century Gothic";
+}
+#Navbar1, .feed-links, .home-link, .post-comment-link {
+	display:none !important;
+}
+#sidebar {
+	padding: 20px;
+}
+#Blog1 {
+	padding:0px 40px;
+}
+.jump-link:before {
+  content: 'This is a long post, please click ⇒ ';
+}
