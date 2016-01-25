@@ -88,6 +88,9 @@ body {
     margin: 0;
     width:190px;
 }
+.topbar_holder form #search-box{
+    width:160px;
+}
 .topbar_holder::after {
     content: "";
     display: table;
