@@ -220,10 +220,10 @@ blockquote::before {
     left: 10px;
     top: 10px;
 }
-blockquote h7::before {
+blockquote author::before {
     content:"\2015";
 }
-blockquote h7 {
+blockquote author {
     text-align:right;
     display: block;
 }
