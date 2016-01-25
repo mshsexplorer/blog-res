@@ -257,5 +257,32 @@ img {
     padding:0px 40px;
 }
 .jump-link:before {
-  content: 'This is a long post, please click ⇒ ';
+    content: '(This is a long post and has been truncated)';
+    margin-bottom: 16px;
+    display: block;
+    font-weight: bold;
 }
+.jump-link {
+    text-align: center;
+    margin: 16px;
+    border-radius: 15px;
+    background-color: #4CAF50;
+    color: #FFFFFF;
+    padding: 8px;
+}
+.jump-link a:before {
+    content: "« ";
+}
+.jump-link a {
+    border-radius: 7px;
+    text-decoration: none;
+    padding: 5px;
+    font-size: 18px;
+    color: #226;
+    border: 2px #226 solid;
+}
+.jump-link a:hover {
+    color: #fff;
+    background-color: #226;
+}
+
