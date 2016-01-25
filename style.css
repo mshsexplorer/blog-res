@@ -265,10 +265,6 @@ img {
 .jump-link {
     text-align: center;
     margin: 16px;
-    border-radius: 15px;
-    background-color: #4CAF50;
-    color: #FFFFFF;
-    padding: 8px;
 }
 .jump-link a:before {
     content: "« ";
