@@ -213,7 +213,7 @@ p {
 /* Quotes */
 blockquote::before {
     content:"";
-    background: url("https://ccc487b9ea3339fdce153b2cd9b09111666363cf.googledrive.com/host/0BxylVg1xRFxheE9JZzlneTJ3LVk/blockquote_icon.png") no-repeat;
+    background: url("image/icon_blockquote.png") no-repeat;
     width: 34px;
     height: 24px;
     position: absolute;
