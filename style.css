@@ -7,7 +7,7 @@
 .thin-font {
     font-family: "RobotoThin", "RobotoLight", "Helvetica Neue", "Roboto", "Helvetica", "Century Gothic";
 }
-
+*/
 @font-face {
     font-family: RobotoCond;
     src: url('font/roboto-condensed.ttf');
@@ -15,7 +15,7 @@
 .cond-font {
     font-family: "RobotoCond", "Roboto", "Helvetica Neue", "Helvetica", "Century Gothic";
 }
-*/
+
 
 @font-face {
     font-family: RobotoLight;
