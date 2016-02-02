@@ -12,6 +12,10 @@
     font-family: RobotoCond;
     src: url('font/roboto-condensed.ttf');
 }
+@font-face {
+    font-family: "Roboto Condensed";
+    src: url('font/roboto-condensed.ttf');
+}
 .cond-font {
     font-family: "RobotoCond", "Roboto", "Helvetica Neue", "Helvetica", "Century Gothic";
 }
