@@ -139,7 +139,10 @@ body {
     margin-bottom: 7%;
     text-shadow: 2px 2px 6px #000;
 }
-header a, .topbar_holder a, h3 a{ text-decoration: none; }
+header a, .topbar_holder a, h3 a{
+    font-family: "Roboto", "Helvetica Neue", "Helvetica", "Century Gothic";
+    text-decoration: none;
+}
 
 /*********************************************
 Body Card 
@@ -182,7 +185,8 @@ fix: http://stackoverflow.com/questions/10969023/how-to-fit-a-divs-height-to-wra
 /* Text */
 a {
     color: #226;
-    font-family: "Roboto", "Helvetica Neue", "Helvetica", "Century Gothic";
+    font-family: inherit;
+    /*font-family: "Roboto", "Helvetica Neue", "Helvetica", "Century Gothic";*/
 }
 
 h1 {
